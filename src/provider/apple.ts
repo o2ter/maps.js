@@ -25,6 +25,7 @@ export class AppleMapProvider implements MapProvider {
       country: x.country,
       countryCode: x.countryCode,
       formattedAddress: x.name,
+      name: x.name,
       coordinate: x.coordinate,
       structuredAddress: x.structuredAddress,
     }));
@@ -41,6 +42,7 @@ export class AppleMapProvider implements MapProvider {
       country: x.country,
       countryCode: x.countryCode,
       formattedAddress: x.name,
+      name: x.name,
       coordinate: x.coordinate,
       structuredAddress: x.structuredAddress,
     }));
@@ -80,6 +82,7 @@ export class AppleMapProvider implements MapProvider {
       country: x.country,
       countryCode: x.countryCode,
       formattedAddress: x.name,
+      name: x.name,
       coordinate: x.coordinate,
       structuredAddress: x.structuredAddress,
     }));

@@ -16,6 +16,7 @@ export const decodeGoogleGeocodeResult = (result: GeocodeResult | Place) => {
   return {
     country,
     formattedAddress: result.formatted_address!,
+    name: 'name' in result ? result.name : undefined,
     coordinate: {
       latitude: result.geometry.location.lat,
       longitude: result.geometry.location.lng,

@@ -8,6 +8,7 @@ export interface MapProvider {
     country?: string;
     countryCode?: string;
     formattedAddress: string;
+    name?: string;
     coordinate: Location;
     structuredAddress: StructuredAddress;
   }[]>;
@@ -16,6 +17,7 @@ export interface MapProvider {
     country?: string;
     countryCode?: string;
     formattedAddress: string;
+    name?: string;
     coordinate: Location;
     structuredAddress: StructuredAddress;
   }[]>;
@@ -32,6 +34,7 @@ export interface MapProvider {
     country?: string;
     countryCode?: string;
     formattedAddress: string;
+    name?: string;
     coordinate: Location;
     structuredAddress: StructuredAddress;
   }[]>;
