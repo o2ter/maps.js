@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.4.0",
-    "axios": "^1.7.7",
+    "axios": "^1.8.2",
     "google-polyline": "^1.0.3",
     "lodash": "^4.17.21"
   },
